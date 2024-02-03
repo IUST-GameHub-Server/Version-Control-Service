@@ -5,7 +5,7 @@ app = Flask(__name__)
 config=""
 
 @app.route('/show_current_version')
-def show_current_version(string):
+def show_current_version(email):
     return "Not Implemented"
 
 @app.route('/show_new_version')
