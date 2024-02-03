@@ -9,7 +9,7 @@ def show_current_version(email):
     return "Not Implemented"
 
 @app.route('/show_new_version')
-def show_new_version(message):
+def show_new_version(newVersion):
     return "Not Implemented"
 
 
